@@ -416,7 +416,7 @@ class eZContentFunctionCollection
         if ( $publishDate !== false )
             $parameters['SearchDate'] = $publishDate;
         if ( $sortArray !== false )
-            $parameters['SortBy'] = $sortArray;
+            $parameters['SortArray'] = $sortArray;
         $parameters['SearchLimit'] = $limit;
         $parameters['SearchOffset'] = $offset;
         $parameters['IgnoreVisibility'] = $ignoreVisibility;
